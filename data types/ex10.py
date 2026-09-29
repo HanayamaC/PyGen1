@@ -1,0 +1,8 @@
+num = input()
+dig1 = int(num[0])
+dig2 = int(num[1])
+dig3 = int(num[2])
+mn = min(dig1, dig2, dig3)
+mx = max(dig1, dig2, dig3)
+sr = sum([dig1, dig2, dig3]) - (mn + mx)
+print('Число интересное') if mx - mn == sr else print('Число неинтересное')

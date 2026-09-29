@@ -1,0 +1,1 @@
+print(sum([int(el) for el in input()]))
